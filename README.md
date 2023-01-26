@@ -12,6 +12,16 @@ Traditionally, encoder-decoder architecture has degraded segmentation accuracy d
  The image gives outputs via the following command
  docker run --rm -v $HOME/input/:/input/ -v $HOME/output/:/output/ parvezamu/tmi_2020:v3
  
+For Single Case
+To test a single subject, please have the data stored like this:
+
+<folder_with_one_case>
+   ├── BraTS20_Validation_001_t1.nii.gz
+   ├── BraTS20_Validation_001_flair.nii.gz
+   ├── BraTS20_Validation_001_t2.nii.gz
+   ├── BraTS20_Validation_001_t1ce.nii.gz
+
+
 
 Acknowledgement:
 Many thanks to the host of the BraTS datasets.
