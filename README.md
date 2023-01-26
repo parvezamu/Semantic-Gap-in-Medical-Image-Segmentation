@@ -1,11 +1,8 @@
 # Semantic-Gap-in-Medical-Image-Segmentation
-Traditionally, encoder-decoder architecture has degraded segmentation accuracy due to semantic gaps. If it is minimized, the mean dice scores of tumor core cancer subtypes may increase. 
-# BraTS_2021_Challenge
+Traditionally, encoder-decoder architecture has degraded segmentation accuracy due to semantic gaps. If it is minimized, the mean dice scores of tumor core cancer subtypes may increase. Currently, the paper is under review.
  A preliminary improvement is shown in the attached image 
  ![res](https://user-images.githubusercontent.com/23691260/214847816-404e3858-b2e8-4bdb-bd4b-cce695296f06.jpeg)
 
- #![BraTS Validation Results](https://ln5.sync.com/dl/db427dd60/2cd3fwwu-vtyvtjzi-zxdf3bxv-gie6za43)
- #![plot](https://ln5.sync.com/dl/db427dd60/2cd3fwwu-vtyvtjzi-zxdf3bxv-gie6za43).
  Results of each table can be obtained through two docker images:
  1. BraTS 2018 (https://hub.docker.com/repository/docker/parvezamu/tmi_2018). Docker image can be downloaded using the command: docker pull parvezamu/tmi_2018
  The image gives outputs via the following command
