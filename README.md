@@ -16,10 +16,8 @@ For Single Case
 To test a single subject, please have the data stored like this:
 
 <folder_with_one_case>
-   ├── BraTS20_Validation_001_t1.nii.gz
-   ├── BraTS20_Validation_001_flair.nii.gz
-   ├── BraTS20_Validation_001_t2.nii.gz
-   ├── BraTS20_Validation_001_t1ce.nii.gz
+ ![bc](https://user-images.githubusercontent.com/23691260/214850451-4e64fdb2-d6c2-4f96-9be1-253d7530fa65.png)
+
 
 
 
